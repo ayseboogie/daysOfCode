@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { useRouter } from 'next/router';
 import React from "react";
+import CodeEditor from "@/components/editorApp";
 
 interface Props {
     readmeContent: string;
@@ -17,6 +18,8 @@ const DayPage: React.FC<Props> = ({ readmeContent }) => {
             <h1>{day}</h1>
             <h2>README</h2>
             <pre>{readmeContent}</pre>
+
+            <CodeEditor />
         </div>
     );
 };
