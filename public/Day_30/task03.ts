@@ -7,10 +7,10 @@
 */
 
 function checkNaN(param: any): boolean {
-    return isNaN(param);
+  return isNaN(param);
 }
 
-console.log(checkNaN('Hello World'));
+console.log(checkNaN("Hello World"));
 console.log(checkNaN(12345));
 console.log(checkNaN(12.388));
 console.log(checkNaN(true));

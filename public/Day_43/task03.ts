@@ -7,16 +7,16 @@
 */
 
 const traditionalVsArrow = {
-    name: 'Huzaifa',
+  name: "Huzaifa",
 
-    traditionalFunction: function() {
-        console.log(`Traditional function: ${this.name}`);
-    },
+  traditionalFunction: function () {
+    console.log(`Traditional function: ${this.name}`);
+  },
 
-    // arrowFunction: () => {
-    //     console.log(`Arrow function: ${this.name}`);
-    // }
-}
+  // arrowFunction: () => {
+  //     console.log(`Arrow function: ${this.name}`);
+  // }
+};
 
 traditionalVsArrow.traditionalFunction();
 // traditionalVsArrow.arrowFunction()

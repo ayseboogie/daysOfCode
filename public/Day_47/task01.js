@@ -7,19 +7,18 @@
 */
 // 1. typeOf. valid use case
 const value = 66;
-if (typeof value === 'number') {
-    console.log('Value is a number \n');
+if (typeof value === "number") {
+  console.log("Value is a number \n");
 }
 // 2. return. valid use case
 function add(num1, num2) {
-    return num1 + num2;
+  return num1 + num2;
 }
 console.log(add(5, 5));
 // 3. try-catch. valid use case
 try {
-    throw new Error("something went wrong");
-}
-catch (error) {
-    console.error('\nError catch', error.message);
+  throw new Error("something went wrong");
+} catch (error) {
+  console.error("\nError catch", error.message);
 }
 export {};

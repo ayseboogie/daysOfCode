@@ -6,10 +6,10 @@
 * with let inside a loop are only accessible within that loop. This helps avoid unintended interference with other parts of your code.
 */
 function useLoop() {
-    let loopNumber = 1;
-    for (loopNumber; loopNumber < 6; loopNumber++) {
-        console.log(loopNumber);
-    }
+  let loopNumber = 1;
+  for (loopNumber; loopNumber < 6; loopNumber++) {
+    console.log(loopNumber);
+  }
 }
 useLoop();
 export {};

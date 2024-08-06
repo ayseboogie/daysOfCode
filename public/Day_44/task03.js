@@ -6,10 +6,10 @@
 * This flexibility supports various use cases in module design.
 */
 // Importing named exports
-import { add, subtract } from './task3.3.js';
+import { add, subtract } from "./task3.3.js";
 console.log(add(5, 3));
 console.log(subtract(10, 4));
 // Importing the default export
-import MyPerson from './task3.3.3.js';
-const person = new MyPerson('Huzaifa', 30);
+import MyPerson from "./task3.3.3.js";
+const person = new MyPerson("Huzaifa", 30);
 person.greet();

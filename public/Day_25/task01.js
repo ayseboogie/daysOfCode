@@ -7,10 +7,10 @@
 * update it as needed. This is fundamental for keeping track of changing data within your programs.
 */
 function updateVariable() {
-    let name = 'Huzaifa';
-    console.log('Initial value', name);
-    name = 'Shuja';
-    console.log('updated value', name);
+  let name = "Huzaifa";
+  console.log("Initial value", name);
+  name = "Shuja";
+  console.log("updated value", name);
 }
 updateVariable();
 export {};

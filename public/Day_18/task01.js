@@ -7,12 +7,12 @@
 * This helps organize related information neatly.
 */
 let smartphone = {
-    brand: "Iphone",
-    model: 2024,
-    spec: {
-        screenSize: 5.4,
-        battery: 4300
-    },
+  brand: "Iphone",
+  model: 2024,
+  spec: {
+    screenSize: 5.4,
+    battery: 4300,
+  },
 };
 console.log(smartphone);
 export {};

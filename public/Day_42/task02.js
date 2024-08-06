@@ -5,11 +5,11 @@
 * within the same object, providing a cohesive way to manipulate internal data.
 */
 const rectangle = {
-    length: 4,
-    width: 5,
-    calculate: function () {
-        console.log(this.length * this.width);
-    }
+  length: 4,
+  width: 5,
+  calculate: function () {
+    console.log(this.length * this.width);
+  },
 };
 rectangle.calculate();
 export {};

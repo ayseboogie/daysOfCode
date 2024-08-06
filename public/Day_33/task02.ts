@@ -5,17 +5,16 @@
 * which gives you the difference in milliseconds. Convert that to days to see how many days are left until a specific event.
 */
 
-
 function findNewYearDate() {
-    const currentDate = new Date();
+  const currentDate = new Date();
 
-    const nextYear = new Date(currentDate.getFullYear() + 1, 0, 1);
+  const nextYear = new Date(currentDate.getFullYear() + 1, 0, 1);
 
-    const timeDifference = nextYear.getTime() - currentDate.getTime();
+  const timeDifference = nextYear.getTime() - currentDate.getTime();
 
-    const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 *24) );
+  const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
-    return daysLeft
+  return daysLeft;
 }
 
 console.log(`There are ${findNewYearDate()} days left in the New Year`);

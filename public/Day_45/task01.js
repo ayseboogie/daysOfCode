@@ -6,10 +6,10 @@
 * Converting a JavaScript object into a JSON string can be done using JSON.stringify().
 */
 const obj = {
-    name: 'huzaifa',
-    age: 23,
+  name: "huzaifa",
+  age: 23,
 };
-console.log('Object:', obj);
-console.log('\n');
-console.log('JSON Object:', JSON.stringify(obj));
+console.log("Object:", obj);
+console.log("\n");
+console.log("JSON Object:", JSON.stringify(obj));
 export {};

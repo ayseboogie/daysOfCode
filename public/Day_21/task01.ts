@@ -7,9 +7,9 @@
 */
 
 enum Vehicles {
-    cars,
-    trucks,
-    motorcycles
+  cars,
+  trucks,
+  motorcycles,
 }
 
 console.log(Vehicles.cars);

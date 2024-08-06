@@ -5,7 +5,7 @@
 * which is useful for finding the magnitude of a difference without regard to direction.
 */
 function difference(num1, num2) {
-    return Math.abs(num1 - num2);
+  return Math.abs(num1 - num2);
 }
 console.log(difference(-5, 5));
 console.log(difference(-2, 9));

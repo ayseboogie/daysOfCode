@@ -4,8 +4,13 @@
 * Explain & TIP: The for...of loop is a modern loop introduced in ES6, designed to iterate over
 * iterable objects like arrays, strings, Maps, NodeLists, and more, making it very readable and easy to use.
 */
-const movies = ['Iron Man', 'Avengers', 'Batman Vs Super Man', 'Justice League'];
+const movies = [
+  "Iron Man",
+  "Avengers",
+  "Batman Vs Super Man",
+  "Justice League",
+];
 for (const movie of movies) {
-    console.log(`My favorite movies is ${movie}`);
+  console.log(`My favorite movies is ${movie}`);
 }
 export {};

@@ -7,7 +7,7 @@
 */
 
 function add(num: number, text: string): number {
-    return num + Number(text);
+  return num + Number(text);
 }
 
 console.log(add(5, "9"));

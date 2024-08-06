@@ -7,7 +7,7 @@
 */
 
 function addNumberWithString(text: string, num: number) {
-    return text + num
+  return text + num;
 }
 
 console.log(addNumberWithString("age:", 11));

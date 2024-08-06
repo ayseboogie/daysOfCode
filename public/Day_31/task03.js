@@ -4,9 +4,9 @@
 * Explain & TIP: To replace an item in an array, find its index using .indexOf(),
 * then use that index to set a new value with array bracket notation.
 */
-const favoriteFruits = ['apple', 'guava', 'orange', 'banana'];
+const favoriteFruits = ["apple", "guava", "orange", "banana"];
 console.log(favoriteFruits);
-console.log(favoriteFruits.indexOf('banana'));
-favoriteFruits[favoriteFruits.indexOf('banana')] = 'mango';
+console.log(favoriteFruits.indexOf("banana"));
+favoriteFruits[favoriteFruits.indexOf("banana")] = "mango";
 console.log(favoriteFruits);
 export {};

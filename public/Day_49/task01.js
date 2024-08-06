@@ -6,10 +6,10 @@
 * or to customize the behavior of a function with custom actions.
 */
 function callbackFunction(callback, num1, num2) {
-    callback(num1, num2);
+  callback(num1, num2);
 }
 function add(num1, num2) {
-    console.log(num1 + num2);
+  console.log(num1 + num2);
 }
 callbackFunction(add, 5, 4);
 export {};

@@ -7,9 +7,9 @@
 */
 
 const createPromise = new Promise<string>((resolve) => {
-    setTimeout(() => {
-        resolve('Hello World!');
-    }, 2000);
+  setTimeout(() => {
+    resolve("Hello World!");
+  }, 2000);
 });
 
 createPromise.then((message) => console.log(message));

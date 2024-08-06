@@ -6,14 +6,14 @@
 * This behavior often requires workarounds like assigning this to another variable in the outer function.
 */
 const obj = {
-    name: 'Huzaifa',
-    outerFunction: function () {
-        console.log(this.name);
-        const innerFunction = () => {
-            console.log(this.name);
-        };
-        innerFunction();
-    }
+  name: "Huzaifa",
+  outerFunction: function () {
+    console.log(this.name);
+    const innerFunction = () => {
+      console.log(this.name);
+    };
+    innerFunction();
+  },
 };
 obj.outerFunction();
 export {};

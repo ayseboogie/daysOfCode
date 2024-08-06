@@ -6,9 +6,9 @@
 * without blocking the main thread.
 */
 function delay() {
-    setTimeout(() => {
-        console.log(`code execute after 2 seconds`);
-    }, 2000);
+  setTimeout(() => {
+    console.log(`code execute after 2 seconds`);
+  }, 2000);
 }
 delay();
 console.log(`this line is after function but executed before function`);

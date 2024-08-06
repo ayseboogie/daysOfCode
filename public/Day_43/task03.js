@@ -6,13 +6,13 @@
 * it uses this from the code that contains the arrow function.
 */
 const traditionalVsArrow = {
-    name: 'Huzaifa',
-    traditionalFunction: function () {
-        console.log(`Traditional function: ${this.name}`);
-    },
-    // arrowFunction: () => {
-    //     console.log(`Arrow function: ${this.name}`);
-    // }
+  name: "Huzaifa",
+  traditionalFunction: function () {
+    console.log(`Traditional function: ${this.name}`);
+  },
+  // arrowFunction: () => {
+  //     console.log(`Arrow function: ${this.name}`);
+  // }
 };
 traditionalVsArrow.traditionalFunction();
 export {};

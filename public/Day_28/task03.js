@@ -6,10 +6,11 @@
 * replace it with something else. By default, it only replaces the first occurrence,
 * but you can use a global regex for multiple replacements.
 */
-let sentence = 'JavaScript! Today we will learn JavaScript and its basic functions';
+let sentence =
+  "JavaScript! Today we will learn JavaScript and its basic functions";
 function change(text) {
-    let changeText = text.replace(/JavaScript/g, "TypeScript");
-    return changeText;
+  let changeText = text.replace(/JavaScript/g, "TypeScript");
+  return changeText;
 }
 console.log(change(sentence));
 export {};

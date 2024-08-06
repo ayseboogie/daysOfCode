@@ -6,14 +6,14 @@
 */
 let magicians = ["Huzaifa", "Shuja", "Bilal"];
 function showMagicians(magicians) {
-    magicians.forEach(magician => {
-        console.log(magician);
-    });
+  magicians.forEach((magician) => {
+    console.log(magician);
+  });
 }
 function makeGreat(magicians) {
-    for (let i = 0; i < magicians.length; i++) {
-        magicians[i] = magicians[i] + " Great";
-    }
+  for (let i = 0; i < magicians.length; i++) {
+    magicians[i] = magicians[i] + " Great";
+  }
 }
 makeGreat(magicians);
 showMagicians(magicians);

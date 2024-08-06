@@ -7,9 +7,9 @@
 */
 var Vehicles;
 (function (Vehicles) {
-    Vehicles[Vehicles["cars"] = 0] = "cars";
-    Vehicles[Vehicles["trucks"] = 1] = "trucks";
-    Vehicles[Vehicles["motorcycles"] = 2] = "motorcycles";
+  Vehicles[(Vehicles["cars"] = 0)] = "cars";
+  Vehicles[(Vehicles["trucks"] = 1)] = "trucks";
+  Vehicles[(Vehicles["motorcycles"] = 2)] = "motorcycles";
 })(Vehicles || (Vehicles = {}));
 console.log(Vehicles.cars);
 export {};

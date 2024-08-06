@@ -6,7 +6,7 @@
 * It looks at the decimal part and decides whether to round up or down.
 */
 function round(param) {
-    return Math.round(param);
+  return Math.round(param);
 }
 console.log(round(2.678));
 console.log(round(0.678));

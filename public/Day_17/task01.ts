@@ -7,9 +7,9 @@
 */
 
 function logHobbies(...hobbies: string[]) {
-    hobbies.forEach(hobby => {
-        console.log(`I love enjoy ${hobby}`);
-    });
+  hobbies.forEach((hobby) => {
+    console.log(`I love enjoy ${hobby}`);
+  });
 }
 
 logHobbies("Coding", "Sleeping", "Gaming");

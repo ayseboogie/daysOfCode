@@ -1,9 +1,9 @@
 /**********************************
  * TYPE ANNOTATIONS WITH FUNCTION *
-**********************************/
+ **********************************/
 // Function to calculate the area of rectangle
 function calculateRectangleArea(lengthOfRectangle, widthOfRectangle) {
-    return lengthOfRectangle * widthOfRectangle;
+  return lengthOfRectangle * widthOfRectangle;
 }
 const lengthOfRectangle = 5;
 const widthOfRectangle = 10;

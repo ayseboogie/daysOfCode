@@ -11,6 +11,6 @@ const laptopSet2Prices = [1100, 1600, 1700];
 
 const combinedPrices = [...laptopSet1Prices, ...laptopSet2Prices];
 
-const sortedPrice = combinedPrices.sort((a,b) => a - b);
+const sortedPrice = combinedPrices.sort((a, b) => a - b);
 
 console.log(`sortedPrice`, sortedPrice);

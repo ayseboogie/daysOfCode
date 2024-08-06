@@ -5,10 +5,18 @@
 */
 
 function keepOnlyString(items: any[]): string[] {
-    return items.filter(item => typeof item === 'string');
+  return items.filter((item) => typeof item === "string");
 }
 
-const mixedItems: any[] = [1, "huzaifa", true, "shuja", false, undefined, "moiz"];
+const mixedItems: any[] = [
+  1,
+  "huzaifa",
+  true,
+  "shuja",
+  false,
+  undefined,
+  "moiz",
+];
 const onlyString: string[] = keepOnlyString(mixedItems);
 
 console.log(onlyString);

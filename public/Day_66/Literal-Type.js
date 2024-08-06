@@ -1,10 +1,10 @@
 /*****************
  * LITERAL TYPES *
-*****************/
+ *****************/
 let direction;
-direction = 'right';
+direction = "right";
 function color(color) {
-    console.log(color);
+  console.log(color);
 }
-color('green');
+color("green");
 export {};

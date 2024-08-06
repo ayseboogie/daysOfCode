@@ -5,7 +5,7 @@
 * They don't have their own bindings to this or super, and should not be used as methods.
 */
 function traditionalFunction(a, b) {
-    return a + b;
+  return a + b;
 }
 const arrowFunction = (a, b) => a + b;
 console.log(traditionalFunction(5, 5));

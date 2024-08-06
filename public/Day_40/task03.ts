@@ -5,8 +5,13 @@
 * iterable objects like arrays, strings, Maps, NodeLists, and more, making it very readable and easy to use.
 */
 
-const movies: string[] = ['Iron Man', 'Avengers', 'Batman Vs Super Man', 'Justice League'];
+const movies: string[] = [
+  "Iron Man",
+  "Avengers",
+  "Batman Vs Super Man",
+  "Justice League",
+];
 
 for (const movie of movies) {
-    console.log(`My favorite movies is ${movie}`);   
+  console.log(`My favorite movies is ${movie}`);
 }

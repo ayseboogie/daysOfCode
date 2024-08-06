@@ -6,8 +6,8 @@
 */
 
 function makeShirt(size: string, message: string) {
-    console.log(`T-Shirt size is "${size}", and the message is "${message}"`);
+  console.log(`T-Shirt size is "${size}", and the message is "${message}"`);
 }
 
 makeShirt("X", "COOL");
-makeShirt("XXL", "BUY NOW")
+makeShirt("XXL", "BUY NOW");

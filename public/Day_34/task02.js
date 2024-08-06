@@ -5,8 +5,8 @@
 * Math.random() in combination with Math.floor() or Math.ceil() to ensure the result is an integer.
 */
 function generateRandomNumber() {
-    const randomNumber = Math.floor(Math.random() * 10) + 1;
-    return randomNumber;
+  const randomNumber = Math.floor(Math.random() * 10) + 1;
+  return randomNumber;
 }
 console.log(generateRandomNumber());
 export {};

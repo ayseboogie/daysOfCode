@@ -6,8 +6,7 @@
 * function and returns a new array with the transformed items.
 */
 
-
-const fruits: string[] = ['apple', 'mango', 'guava'];
+const fruits: string[] = ["apple", "mango", "guava"];
 
 const fruitsLength = fruits.map((fruit) => fruit.length);
 

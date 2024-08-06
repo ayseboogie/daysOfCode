@@ -9,7 +9,7 @@
 */
 let alienColor = "green";
 if (alienColor === "green") {
-    console.log(`alien color is `);
+  console.log(`alien color is `);
 }
 if (alienColor === "red") {
 }

@@ -6,7 +6,7 @@
 */
 
 function makeSandwich(...items: string[]) {
-    console.log(`Making a sandwich with: ${items.join(', ')}.`);
+  console.log(`Making a sandwich with: ${items.join(", ")}.`);
 }
 
 makeSandwich("ham", "cheese");

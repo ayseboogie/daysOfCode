@@ -7,10 +7,12 @@
 * and understand specific pieces of information.
 */
 const person = {
-    programmingLanguages: ["Solidity", "JavaScript", "TypeScript"],
-    frameworks: ["Hardhat", "Truffle", "Foundry", "React", "Next.js"],
-    tools: ["Git", "GitHub", "Jira", "Microsoft", "Azure"]
+  programmingLanguages: ["Solidity", "JavaScript", "TypeScript"],
+  frameworks: ["Hardhat", "Truffle", "Foundry", "React", "Next.js"],
+  tools: ["Git", "GitHub", "Jira", "Microsoft", "Azure"],
 };
 const { programmingLanguages, frameworks, tools } = person;
-console.log(`Language ${programmingLanguages[0]}, framework ${frameworks[2]}, tool ${tools[1]}`);
+console.log(
+  `Language ${programmingLanguages[0]}, framework ${frameworks[2]}, tool ${tools[1]}`,
+);
 export {};

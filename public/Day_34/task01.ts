@@ -6,7 +6,7 @@
 */
 
 function takeSqrt(num: number): number {
-    return Math.sqrt(num);
+  return Math.sqrt(num);
 }
 
 console.log(takeSqrt(9));

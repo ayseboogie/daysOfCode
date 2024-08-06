@@ -6,7 +6,7 @@
 * Mixing a string with a number changes the number into a string for the joining.
 */
 function addNumberWithString(text, num) {
-    return text + num;
+  return text + num;
 }
 console.log(addNumberWithString("age:", 11));
 export {};

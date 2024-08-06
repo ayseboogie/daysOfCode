@@ -11,12 +11,10 @@ let name: string = "Huzaifa";
 // reassign to let
 name = "Shuja";
 
-
 const secondName: string = "Ahmed";
 
 try {
-    // secondName = "moiz"    
+  // secondName = "moiz"
 } catch (error) {
-    console.log("Error: you cant the constant variable once declared");   
+  console.log("Error: you cant the constant variable once declared");
 }
-

@@ -16,11 +16,11 @@ console.log(`x + 2: ${x}`);
 x -= 1;
 console.log(`x -= 1: ${x}`);
 
-x =+ 4; // it will not add 4 to x. it will assign 4 to x
+x = +4; // it will not add 4 to x. it will assign 4 to x
 console.log(`x =+ 4: ${x}`);
 
-x *= 5
+x *= 5;
 console.log(`x *= 5: ${x}`);
 
-x /= 2
+x /= 2;
 console.log(`x /= 2: ${x}`);

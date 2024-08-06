@@ -9,12 +9,12 @@
 let outsideLet = "Im outside";
 const outsideConst = "Im outside";
 {
-    let insideLet = "Im inside let";
-    const insideConst = "Im inside too";
-    console.log(outsideLet);
-    console.log(outsideConst);
-    console.log(insideLet);
-    console.log(insideConst);
+  let insideLet = "Im inside let";
+  const insideConst = "Im inside too";
+  console.log(outsideLet);
+  console.log(outsideConst);
+  console.log(insideLet);
+  console.log(insideConst);
 }
 console.log(outsideLet);
 console.log(outsideConst);

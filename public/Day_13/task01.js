@@ -5,7 +5,7 @@
 * This introduces default function parameters.
 */
 function makeShirt(size = "XL", message = "I love this T-Shirt") {
-    console.log(`The T-Shirt size is "${size}", and the message is "${message}"`);
+  console.log(`The T-Shirt size is "${size}", and the message is "${message}"`);
 }
 makeShirt();
 makeShirt("X", "COOL");

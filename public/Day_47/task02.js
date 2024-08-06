@@ -5,9 +5,8 @@
 * This is because reserved words have predefined meanings and uses in the language syntax.
 */
 try {
-    // let class = "Mathematics";
-}
-catch (error) {
-    console.error('Error catch', error.message);
+  // let class = "Mathematics";
+} catch (error) {
+  console.error("Error catch", error.message);
 }
 export {};

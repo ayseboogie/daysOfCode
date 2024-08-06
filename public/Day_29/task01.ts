@@ -6,11 +6,12 @@
 * If the text isn't found, this method returns -1.
 */
 
-const text: string = 'Hello everyone today we will learn how to code in typescript.'
-const text2: string = 'Hello everyone today we will learn typescript coding.'
+const text: string =
+  "Hello everyone today we will learn how to code in typescript.";
+const text2: string = "Hello everyone today we will learn typescript coding.";
 
 function findIndex(findingText: string): number {
-    return findingText.indexOf('code');
+  return findingText.indexOf("code");
 }
 
 console.log(findIndex(text));

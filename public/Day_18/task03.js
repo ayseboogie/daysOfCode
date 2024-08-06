@@ -6,9 +6,9 @@
 * you need to adjust your list based on new information.
 */
 function createObject(key, value) {
-    let obj = {};
-    obj[key] = value;
-    return obj;
+  let obj = {};
+  obj[key] = value;
+  return obj;
 }
 let myObj = createObject("name", "Huzaifa");
 console.log(myObj);

@@ -5,18 +5,18 @@
 * use a condition to check for vowels. The loop can stop once a vowel is found.
 */
 
-let inputString: string = 'Hwwwwllo World!'
+let inputString: string = "Hwwwwllo World!";
 
 function findVowel(str: string) {
-    const vowel: string = 'aeiouAEIOU';
+  const vowel: string = "aeiouAEIOU";
 
-    for (const char of str) {
-        if (vowel.includes(char)) {
-            console.log(`First vowel founded: ${char}`);
-            break;
-        }
-        console.log(char);
+  for (const char of str) {
+    if (vowel.includes(char)) {
+      console.log(`First vowel founded: ${char}`);
+      break;
     }
+    console.log(char);
+  }
 }
 
-findVowel(inputString)
+findVowel(inputString);

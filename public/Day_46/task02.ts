@@ -6,9 +6,8 @@
 */
 
 try {
-    // const result = someFunction();
-    // console.log(`Result ${result}`);
-    
+  // const result = someFunction();
+  // console.log(`Result ${result}`);
 } catch (error) {
-    // console.error(`An error occurred ${error.message}`)
+  // console.error(`An error occurred ${error.message}`)
 }

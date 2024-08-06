@@ -8,17 +8,16 @@
 let magicians: string[] = ["Huzaifa", "Shuja", "Bilal"];
 
 function showMagicians(magicians: string[]) {
-    magicians.forEach(magician => {
-        console.log(magician);
-    });
+  magicians.forEach((magician) => {
+    console.log(magician);
+  });
 }
 
 function makeGreat(magicians: string[]) {
-    for (let i = 0; i < magicians.length; i++) {
-        magicians[i] = magicians[i] + " Great";
-    }
+  for (let i = 0; i < magicians.length; i++) {
+    magicians[i] = magicians[i] + " Great";
+  }
 }
 
-makeGreat(magicians)
+makeGreat(magicians);
 showMagicians(magicians);
-

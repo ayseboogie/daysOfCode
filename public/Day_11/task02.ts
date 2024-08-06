@@ -9,11 +9,11 @@ const userNames: string[] = ["huzaifa", "shuja", "moiz"];
 
 const newUsers: string[] = ["Faraz", "Shuja", "Bilal", "Huzaifa"];
 
-for (let i = 0; i < newUsers.length; i ++) {
-    let nameToLowerCase: string = newUsers[i].toLocaleLowerCase()
-    if (userNames.includes(nameToLowerCase)) {
-        console.log(`${nameToLowerCase}, username already registered`);
-    } else {
-        console.log(`${nameToLowerCase}, username available.`);
-    }
+for (let i = 0; i < newUsers.length; i++) {
+  let nameToLowerCase: string = newUsers[i].toLocaleLowerCase();
+  if (userNames.includes(nameToLowerCase)) {
+    console.log(`${nameToLowerCase}, username already registered`);
+  } else {
+    console.log(`${nameToLowerCase}, username available.`);
+  }
 }

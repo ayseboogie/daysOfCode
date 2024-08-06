@@ -6,9 +6,9 @@
 * providing a way to handle multiple inputs gracefully.
 */
 function logHobbies(...hobbies) {
-    hobbies.forEach(hobby => {
-        console.log(`I love enjoy ${hobby}`);
-    });
+  hobbies.forEach((hobby) => {
+    console.log(`I love enjoy ${hobby}`);
+  });
 }
 logHobbies("Coding", "Sleeping", "Gaming");
 export {};

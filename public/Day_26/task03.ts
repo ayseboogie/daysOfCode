@@ -9,16 +9,14 @@
 
 // Function declaration
 function squaring(num: number): number {
-    let result = num**2;
-    return result
+  let result = num ** 2;
+  return result;
 }
 console.log(squaring(3));
 
-
 // Function Expression
-const squaring2 = function(num: number): number {
-    let result = num**2;
-    return result
-}
+const squaring2 = function (num: number): number {
+  let result = num ** 2;
+  return result;
+};
 console.log(squaring2(3));
-

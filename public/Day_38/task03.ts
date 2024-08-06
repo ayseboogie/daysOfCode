@@ -5,12 +5,11 @@
 * a for...of loop, providing access to each key-value pair.
 */
 
-const myMap = new Map<string, string> ();
-myMap.set('Pakistan', 'Islamabad');
-myMap.set('India', 'Mumbai');
-myMap.set('USA', 'Washington DC');
-
+const myMap = new Map<string, string>();
+myMap.set("Pakistan", "Islamabad");
+myMap.set("India", "Mumbai");
+myMap.set("USA", "Washington DC");
 
 for (const [key, value] of myMap) {
-    console.log(`${value} is a capital of ${key}`);
+  console.log(`${value} is a capital of ${key}`);
 }

@@ -5,15 +5,15 @@
 * Explain & TIP: The .toUpperCase() and .toLowerCase() methods allow you to change the case
 * of all letters in a string, useful for formatting or comparing strings.
 */
-let text1 = 'huZAIfa';
-let text2 = 'ahMEd';
+let text1 = "huZAIfa";
+let text2 = "ahMEd";
 console.log(`before ${text1}`);
 console.log(`before ${text2} \n`);
 function converter(text) {
-    let convert = text.toLowerCase();
-    console.log(`to lower case ${convert}`);
-    convert = text.toUpperCase();
-    console.log(`to upper case ${convert} \n`);
+  let convert = text.toLowerCase();
+  console.log(`to lower case ${convert}`);
+  convert = text.toUpperCase();
+  console.log(`to upper case ${convert} \n`);
 }
 converter(text1);
 converter(text2);

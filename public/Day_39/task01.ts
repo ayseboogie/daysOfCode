@@ -5,38 +5,37 @@
 * It's particularly useful for scenarios like mapping numbers to days of the week.
 */
 
-
 const day: number = 5;
 
 switch (day) {
-    case 1:
-        console.log('Monday');
-        break;
+  case 1:
+    console.log("Monday");
+    break;
 
-    case 2:
-        console.log('Tuesday');
-        break;
+  case 2:
+    console.log("Tuesday");
+    break;
 
-    case 3:
-        console.log('Wednesday');
-        break;
+  case 3:
+    console.log("Wednesday");
+    break;
 
-    case 4:
-        console.log('Thursday');
-        break;
+  case 4:
+    console.log("Thursday");
+    break;
 
-    case 5:
-        console.log('Friday');
-        break;
+  case 5:
+    console.log("Friday");
+    break;
 
-    case 6:
-        console.log('Saturday');
-        break;
+  case 6:
+    console.log("Saturday");
+    break;
 
-    case 7:
-        console.log('Sunday');
-        break;
-        
-    default:
-        break;
+  case 7:
+    console.log("Sunday");
+    break;
+
+  default:
+    break;
 }

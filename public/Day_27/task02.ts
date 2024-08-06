@@ -6,15 +6,13 @@
 * This flexibility allows objects to be dynamically updated as needed.
 */
 
-let car: { [key: string]: any} = {
-    make: 'Ford',
-    model: 'Mustang',
-    year: 1997
-}
+let car: { [key: string]: any } = {
+  make: "Ford",
+  model: "Mustang",
+  year: 1997,
+};
 
-car.color = 'black';
+car.color = "black";
 car.year = 1897;
 
 console.log(car);
-
-

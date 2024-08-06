@@ -7,12 +7,12 @@
 */
 
 async function add() {
-    return 5 + 4;
+  return 5 + 4;
 }
 
 const fetchData = async () => {
-    const data = await add();
-    console.log(await add());
-}
+  const data = await add();
+  console.log(await add());
+};
 
-fetchData()
+fetchData();

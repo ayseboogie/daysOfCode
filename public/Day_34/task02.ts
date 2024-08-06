@@ -6,8 +6,8 @@
 */
 
 function generateRandomNumber(): number {
-    const randomNumber: number = Math.floor(Math.random() * 10) + 1;
-    return randomNumber;
+  const randomNumber: number = Math.floor(Math.random() * 10) + 1;
+  return randomNumber;
 }
 
 console.log(generateRandomNumber());

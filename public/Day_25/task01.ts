@@ -8,10 +8,10 @@
 */
 
 function updateVariable() {
-    let name: string = 'Huzaifa'
-    console.log('Initial value', name);
-    name = 'Shuja'
-    console.log('updated value', name);
+  let name: string = "Huzaifa";
+  console.log("Initial value", name);
+  name = "Shuja";
+  console.log("updated value", name);
 }
 
-updateVariable()
+updateVariable();

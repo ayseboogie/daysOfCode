@@ -6,11 +6,11 @@
 * This flexibility allows objects to be dynamically updated as needed.
 */
 let car = {
-    make: 'Ford',
-    model: 'Mustang',
-    year: 1997
+  make: "Ford",
+  model: "Mustang",
+  year: 1997,
 };
-car.color = 'black';
+car.color = "black";
 car.year = 1897;
 console.log(car);
 export {};

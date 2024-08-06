@@ -6,20 +6,17 @@
 */
 
 function personAge(age: number) {
-    if (age >= 20) {
-        console.log(`You are adult`);
-        
-    } else if (age > 12) {
-        console.log(`You are teenager`);
-        
-    } else {
-        console.log(`You are a kid`);
-        
-    }
+  if (age >= 20) {
+    console.log(`You are adult`);
+  } else if (age > 12) {
+    console.log(`You are teenager`);
+  } else {
+    console.log(`You are a kid`);
+  }
 }
 
-personAge(5)
-personAge(25)
-personAge(12)
-personAge(20)
-personAge(15)
+personAge(5);
+personAge(25);
+personAge(12);
+personAge(20);
+personAge(15);

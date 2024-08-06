@@ -6,9 +6,9 @@
 */
 let magicians = ["Huzaifa", "Shuja", "Bilal"];
 function showMagicians(magicians) {
-    magicians.forEach(magician => {
-        console.log(magician);
-    });
+  magicians.forEach((magician) => {
+    console.log(magician);
+  });
 }
 showMagicians(magicians);
 export {};

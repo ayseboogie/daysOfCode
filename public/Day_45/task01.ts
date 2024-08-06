@@ -7,11 +7,11 @@
 */
 
 const obj = {
-    name: 'huzaifa',
-    age: 23,
-}
-console.log('Object:', obj);
+  name: "huzaifa",
+  age: 23,
+};
+console.log("Object:", obj);
 
-console.log('\n');
+console.log("\n");
 
-console.log('JSON Object:', JSON.stringify(obj));
+console.log("JSON Object:", JSON.stringify(obj));

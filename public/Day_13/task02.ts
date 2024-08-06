@@ -6,10 +6,9 @@
 */
 
 function cities(city: string = "Karachi", country: string = "Pakistan") {
-    console.log(`${city} is in ${country}`);
+  console.log(`${city} is in ${country}`);
 }
 
 cities("Lahore");
 cities("Nawabshah");
-cities("Huston", "US")
-
+cities("Huston", "US");

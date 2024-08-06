@@ -7,7 +7,7 @@
 
 const guest: string[] = ["Hamza", "Haris", "Mudassir"];
 for (let i = 0; i < guest.length; i++) {
-    console.log(`Hello ${guest[i]}, you are invited to the dinner`);    
+  console.log(`Hello ${guest[i]}, you are invited to the dinner`);
 }
 //////////
 
@@ -17,11 +17,11 @@ const personNotComing: number = guest.indexOf("Mudassir");
 const replacementGuest: string = "Taha";
 
 if (personNotComing !== -1) {
-    guest[personNotComing] = replacementGuest;
+  guest[personNotComing] = replacementGuest;
 }
 
 for (let i = 0; i < guest.length; i++) {
-    console.log(`Hello ${guest[i]}, you are invited to the dinner`);    
+  console.log(`Hello ${guest[i]}, you are invited to the dinner`);
 }
 ////////////
 
@@ -30,25 +30,27 @@ console.log(`Lets invite some more friends \n`);
 
 // Lets add more guests
 guest.unshift("Faisal"); // add guest at beginning
-guest.splice(guest.length / 2, 0, "Fahad" ); // add guest at middle
+guest.splice(guest.length / 2, 0, "Fahad"); // add guest at middle
 guest.push("Bilal"); // add guest at end
 
 for (let i = 0; i < guest.length; i++) {
-    console.log(`Hello ${guest[i]}, you are invited to the dinner`);    
+  console.log(`Hello ${guest[i]}, you are invited to the dinner`);
 }
 ////////////
 
-console.log(`\nUnfortunately our big dinner table is not arriving on time so we can only invite 2 persons \n`);
+console.log(
+  `\nUnfortunately our big dinner table is not arriving on time so we can only invite 2 persons \n`,
+);
 
 for (let i = 0; i <= guest.length; i++) {
-    if (guest.length === 2) {
-        break;
-    } else {
-        guest.pop()
-    }
+  if (guest.length === 2) {
+    break;
+  } else {
+    guest.pop();
+  }
 }
 
 for (let i = 0; i < guest.length; i++) {
-    console.log(`Hello ${guest[i]}, you are invited to the dinner`);    
+  console.log(`Hello ${guest[i]}, you are invited to the dinner`);
 }
 /////////////

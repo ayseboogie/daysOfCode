@@ -10,9 +10,8 @@ let name = "Huzaifa";
 name = "Shuja";
 const secondName = "Ahmed";
 try {
-    // secondName = "moiz"    
-}
-catch (error) {
-    console.log("Error: you cant the constant variable once declared");
+  // secondName = "moiz"
+} catch (error) {
+  console.log("Error: you cant the constant variable once declared");
 }
 export {};

@@ -6,9 +6,9 @@
 * number-like strings into real numbers, allowing you to perform mathematical operations on them.
 */
 function convertToNumber(str) {
-    // return parseInt(str);
-    return parseFloat(str);
+  // return parseInt(str);
+  return parseFloat(str);
 }
-console.log(convertToNumber('13456'));
-console.log(convertToNumber('335.13456'));
+console.log(convertToNumber("13456"));
+console.log(convertToNumber("335.13456"));
 export {};

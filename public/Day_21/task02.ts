@@ -7,15 +7,17 @@
 */
 
 interface Student {
-    name: string,
-    age: number,
-    class: number
+  name: string;
+  age: number;
+  class: number;
 }
 
 const student: Student = {
-    name: "huzaifa",
-    age: 22,
-    class: 17
-}
+  name: "huzaifa",
+  age: 22,
+  class: 17,
+};
 
-console.log(`Student Name: ${student.name}, Student Age: ${student.age}, Student Class: ${student.class}`);
+console.log(
+  `Student Name: ${student.name}, Student Age: ${student.age}, Student Class: ${student.class}`,
+);

@@ -5,8 +5,8 @@
 * It’s ideal for when you want to repeat something until a certain condition changes.
 */
 
-let i = 0
+let i = 0;
 while (i < 5) {
-    console.log(`Hello World`);
-    i++
+  console.log(`Hello World`);
+  i++;
 }

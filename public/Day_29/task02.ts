@@ -6,11 +6,12 @@
 * returning a boolean (true or false).
 */
 
-const text: string = 'JavaScript is a dynamic programming language, and TypeScript is a static programming language';
-const text2: string = 'I love coding';
+const text: string =
+  "JavaScript is a dynamic programming language, and TypeScript is a static programming language";
+const text2: string = "I love coding";
 
 function findText(find: string): boolean {
-    return find.includes('JavaScript');
+  return find.includes("JavaScript");
 }
 
 console.log(findText(text));

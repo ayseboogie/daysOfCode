@@ -6,11 +6,11 @@
 * helping you understand more about the data you're working with.
 */
 
-const text: string = 'Hello World!';
+const text: string = "Hello World!";
 
 function countCharacter(text: string): number {
-    let count: number = text.length;
-    return count;
+  let count: number = text.length;
+  return count;
 }
 
 console.log(text);
