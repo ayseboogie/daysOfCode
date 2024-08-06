@@ -1,6 +1,6 @@
 # TypeScript 100 Days of Coding Challenge
 
-Welcome to the TypeScript 100 Days of Coding Challenge! This challenge is designed to help you transition from a complete beginner to a confident developer in TypeScript.
+Welcome to the TypeScript 69 Days of Coding Challenge! This challenge is designed to help you transition from a complete beginner to a confident developer in TypeScript.
 
 ## 🎯 Challenge Objective
 
@@ -26,8 +26,8 @@ Keep a daily log of your progress. Share your achievements, no matter how small,
 
 Are you ready to embark on this 100-day journey? Remember, the path to becoming a developer is not just about reading and watching but about doing. Let's code, learn, and grow together!
 
-### 📅 Start Date: [02/03/2024]
+### 📅 Start Date: [08/06/2024]
 
 Happy Coding, and see you at the finish line! 🏁 Please Star the Repository 🌟
 
-\#100DaysOfCode #CodeToLearn #LearningJourney
+\#69DaysOfCode #CodeToLearn #LearningJourney
