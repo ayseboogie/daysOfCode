@@ -3,7 +3,14 @@ import fs from 'fs';
 import path from 'path';
 import { useRouter } from 'next/router';
 import React from "react";
-import CodeEditor from "@/components/editorApp";
+import {UnControlled as CodeMirror} from 'react-codemirror2'
+
+require('codemirror/mode/xml/xml');
+require('codemirror/mode/javascript/javascript');
+
+import 'codemirror/lib/codemirror.css';
+import 'codemirror/theme/material.css';
+import Bounded from "@/components/Bounded";
 
 interface Props {
     readmeContent: string;
@@ -19,7 +26,24 @@ const DayPage: React.FC<Props> = ({ readmeContent }) => {
             <h2>README</h2>
             <pre>{readmeContent}</pre>
 
-            <CodeEditor />
+            <Bounded size="small">
+            <div className="w-1/8">
+            <CodeMirror
+                value='<h1>I ♥ react-codemirror2</h1>'
+                options={{
+                    mode: 'xml',
+                    theme: 'material',
+                    lineNumbers: true
+                }}
+                cursor={{
+                    line: 5,
+                    ch: 10
+                }}
+                onChange={(editor, data, value) => {
+                }}
+            />
+            </div>
+            </Bounded>
         </div>
     );
 };
