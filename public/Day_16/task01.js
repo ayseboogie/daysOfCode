@@ -6,12 +6,12 @@
 properties. This introduces method definition within objects.
 */
 let laptop = {
-    make: "Hp",
-    model: "i5",
-    year: 2020,
-    describe: function () {
-        console.log(`${this.make}, ${this.model}, ${this.year}`);
-    }
+  make: "Hp",
+  model: "i5",
+  year: 2020,
+  describe: function () {
+    console.log(`${this.make}, ${this.model}, ${this.year}`);
+  },
 };
 laptop.describe();
 export {};

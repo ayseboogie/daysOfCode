@@ -6,7 +6,7 @@
 */
 
 const numbers: number[] = [2, 4, 6, 7, 9];
-const doubleNumbers = numbers.map(number => number * 2);
+const doubleNumbers = numbers.map((number) => number * 2);
 
 console.log(numbers);
 console.log(doubleNumbers);

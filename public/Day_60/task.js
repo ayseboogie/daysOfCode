@@ -2,95 +2,97 @@
 
 // Function Declaration
 function showMessage() {
-    console.log("Hello World!");
+  console.log("Hello World!");
 }
-showMessage()
+showMessage();
 
 // Local variables
 function showMessage2() {
-    let message = "Hello World!"
-    console.log(message);
+  let message = "Hello World!";
+  console.log(message);
 }
-showMessage2()
+showMessage2();
 // console.log(message);
 
 // Outer variables
-let userName = 'Huzaifa'
+let userName = "Huzaifa";
 function showName() {
-    let message = `hello` + userName
-    console.log(message);
+  let message = `hello` + userName;
+  console.log(message);
 }
-showName()
+showName();
 
 function showName2() {
-    userName = 'Ahmed'
-    let message = "hello" + userName
+  userName = "Ahmed";
+  let message = "hello" + userName;
 }
 console.log(userName);
-showMessage2()
+showMessage2();
 console.log(userName);
 function showName3() {
-    let userName = 'Shuja'
-    let message = `hello ${userName}`
+  let userName = "Shuja";
+  let message = `hello ${userName}`;
 }
-showName3()
+showName3();
 console.log(userName);
 
 // Parameters
 function showMessage3(from, text) {
-    console.log(from + ':' + text);
+  console.log(from + ":" + text);
 }
-showMessage3('Huzaifa', 'Hello');
-showMessage3('Moiz', "what's up?")
+showMessage3("Huzaifa", "Hello");
+showMessage3("Moiz", "what's up?");
 function showMessage4(from, text) {
-    from = '*' + from + '*'; // make "from" look nicer  
-    console.log( from + ': ' + text );
+  from = "*" + from + "*"; // make "from" look nicer
+  console.log(from + ": " + text);
 }
 let from = "Ann";
 showMessage4(from, "Hello"); // *Ann*: Hello
 // the value of "from" is the same, the function modified a local copy
-console.log( from );
+console.log(from);
 
 // Default values
-function showMessage5(from, text = 'no text given') {
-    console.log(from + ':' + text);
+function showMessage5(from, text = "no text given") {
+  console.log(from + ":" + text);
 }
-showMessage5('Faraz')
+showMessage5("Faraz");
 
 // Returning a value
 function sum(a, b) {
-    return a + b;
+  return a + b;
 }
 let result = sum(10, 5);
 console.log(result);
 function checkAge(age) {
-    if(age >= 18) {
-        return true
-    } else {
-        return console.log('Do you have permision from your parents?')
-    }
+  if (age >= 18) {
+    return true;
+  } else {
+    return console.log("Do you have permision from your parents?");
+  }
 }
-let age = 18
+let age = 18;
 if (checkAge(age)) {
-    console.log('access granted');
+  console.log("access granted");
 } else {
-    console.log('access granted');
+  console.log("access granted");
 }
 function showMovie(age) {
-    if (!checkAge(age)) {
-        return;
-    }
+  if (!checkAge(age)) {
+    return;
+  }
 
-    console.log('Showing you the movie');
+  console.log("Showing you the movie");
 }
-showMovie(age)
+showMovie(age);
 
 // A function with an empty return or without it returns undefined
-function doNothing() {   //empty 
+function doNothing() {
+  //empty
 }
 console.log(doNothing() === undefined);
-function doNothing2() {   //empty 
-    return;
+function doNothing2() {
+  //empty
+  return;
 }
 console.log(doNothing2() === undefined);
 
@@ -124,33 +126,31 @@ checkPermission(..) // checks a permission, returns true/false
 */
 
 function showPrime(n) {
-    nextPrime: for (let i = 2; i < n; i++) {
-        
-        for (let j = 2; j < i; j++) {
-            if (i % j == 0) continue nextPrime;
-        }
-
-        console.log(i);
+  nextPrime: for (let i = 2; i < n; i++) {
+    for (let j = 2; j < i; j++) {
+      if (i % j == 0) continue nextPrime;
     }
+
+    console.log(i);
+  }
 }
 
-showPrime(6)
+showPrime(6);
 
 function showPrimes2(n) {
+  for (let i = 2; i < n; i++) {
+    if (!isPrime(i)) continue;
 
-    for (let i = 2; i < n; i++) {
-      if (!isPrime(i)) continue;
-  
-      console.log(i);  // a prime
-    }
+    console.log(i); // a prime
+  }
 }
 function isPrime(n) {
-    for (let i = 2; i < n; i++) {
-        if ( n % i == 0) return false;
-    }
-    return true;
+  for (let i = 2; i < n; i++) {
+    if (n % i == 0) return false;
+  }
+  return true;
 }
-showPrimes2(10)
+showPrimes2(10);
 
 // function checkAge(age) {
 //     return (age >= 18) ? true : console.log('did your parents allow');
@@ -161,75 +161,68 @@ showPrimes2(10)
 // checkAge(16)
 
 function pow(x, y) {
-    if (y < 1) {
-        console.log(`Power ${n} is not supported, use a positive integer`);
-    } else {
-        console.log(`${x} , ${y}`);
-    }
-    let result = x
-    for (let i = 1; i < y; i++) {
-        result *= x
-    }
-    return result
+  if (y < 1) {
+    console.log(`Power ${n} is not supported, use a positive integer`);
+  } else {
+    console.log(`${x} , ${y}`);
+  }
+  let result = x;
+  for (let i = 1; i < y; i++) {
+    result *= x;
+  }
+  return result;
 }
-let result2 = pow(5, 2)
+let result2 = pow(5, 2);
 console.log(result2);
 
 // Function expressions
 function sayHi() {
-    console.log('Hi!');
+  console.log("Hi!");
 }
 // let sayHi = function () {
 //     console.log('Hi!');
 // }
 // Function is a value
 function sayHi1() {
-    console.log('hello')
+  console.log("hello");
 }
-let func = sayHi1
-func()
-sayHi1()
+let func = sayHi1;
+func();
+sayHi1();
 // let question = true
 function ask(question, yes, no) {
-    console.log(question);
-    if (false) yes()
-        else no() 
+  console.log(question);
+  if (false) yes();
+  else no();
 }
 function showOk() {
-    console.log('you agreed');
+  console.log("you agreed");
 }
 function showCancle() {
-    console.log('you cancled');
+  console.log("you cancled");
 }
-ask('do you agree?', showOk,  showCancle)
+ask("do you agree?", showOk, showCancle);
 function ask2(question, yes, no) {
-    console.log(question);
-    if (true) yes() 
-        else no()
+  console.log(question);
+  if (true) yes();
+  else no();
 }
-ask2('do you agree?', 
-    function () {
-        console.log('you agree');
-    },
-    function () {
-        console.log('you cancle');
-    }
-)
+ask2(
+  "do you agree?",
+  function () {
+    console.log("you agree");
+  },
+  function () {
+    console.log("you cancle");
+  },
+);
 
 // Function Expression vs Function Declaration
 // function declaration
 function sum(a, b) {
-    return a + b
+  return a + b;
 }
 // function expression
 let sum = function (a, b) {
-    return a + b;
-}
-
-
-
-
-
-
-
-
+  return a + b;
+};

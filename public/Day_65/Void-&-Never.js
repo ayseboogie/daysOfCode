@@ -1,18 +1,16 @@
 /****************
  * VOID & NEVER *
-****************/
+ ****************/
 // Void
 function greet(name) {
-    console.log(`Hello ${name}`);
+  console.log(`Hello ${name}`);
 }
-function notReturnValue() {
-}
+function notReturnValue() {}
 // Never
 function throwError(message) {
-    throw new Error(message);
+  throw new Error(message);
 }
 function infiniteLoop() {
-    while (true) {
-    }
+  while (true) {}
 }
 export {};

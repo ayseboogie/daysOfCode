@@ -7,23 +7,22 @@
 */
 
 type Shape = {
-    shape: "rectangle" | "circle",
-    radius?: number
-    horizontal?: number,
-    vertical?: number
-}
+  shape: "rectangle" | "circle";
+  radius?: number;
+  horizontal?: number;
+  vertical?: number;
+};
 
 let circle: Shape = {
-    shape: "circle",
-    radius: 200
-}
+  shape: "circle",
+  radius: 200,
+};
 
 let rectangle: Shape = {
-    shape: "rectangle",
-    horizontal: 250,
-    vertical: 250
-}
+  shape: "rectangle",
+  horizontal: 250,
+  vertical: 250,
+};
 
 console.log(circle.shape);
 console.log(rectangle);
-

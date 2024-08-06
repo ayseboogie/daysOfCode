@@ -5,7 +5,13 @@
 * This can be useful when you need to work with the removed item.
 */
 
-const favoriteFruits: string[] = ['apple', 'mango', 'guava', 'orange', 'banana'];
+const favoriteFruits: string[] = [
+  "apple",
+  "mango",
+  "guava",
+  "orange",
+  "banana",
+];
 
 console.log(favoriteFruits);
 
@@ -13,4 +19,3 @@ favoriteFruits.pop();
 favoriteFruits.pop();
 
 console.log(favoriteFruits);
-

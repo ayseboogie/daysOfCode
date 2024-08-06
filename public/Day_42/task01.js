@@ -5,10 +5,10 @@
 * making it straightforward to access its properties from within its methods.
 */
 const obj = {
-    name: 'Huzaifa',
-    person() {
-        console.log(`Person name is ${this.name}`);
-    }
+  name: "Huzaifa",
+  person() {
+    console.log(`Person name is ${this.name}`);
+  },
 };
 obj.person();
 export {};

@@ -6,21 +6,19 @@
 * for errors before proceeding with its execution.
 */
 function fetchData(callback) {
-    const error = new Error('Failed to fetch data');
-    const data = 'Data fetched successfully';
-    if (Math.random() > 0.5) {
-        callback(null, data);
-    }
-    else {
-        callback(error);
-    }
+  const error = new Error("Failed to fetch data");
+  const data = "Data fetched successfully";
+  if (Math.random() > 0.5) {
+    callback(null, data);
+  } else {
+    callback(error);
+  }
 }
 fetchData((error, data) => {
-    if (error) {
-        console.error(error.message);
-    }
-    else {
-        console.log(data);
-    }
+  if (error) {
+    console.error(error.message);
+  } else {
+    console.log(data);
+  }
 });
 export {};

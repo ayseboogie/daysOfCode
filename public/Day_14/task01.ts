@@ -6,17 +6,17 @@
 */
 
 interface Album {
-    artist: string;
-    title: string;
-    tracks?: number;
+  artist: string;
+  title: string;
+  tracks?: number;
 }
 
 function makeAlbum(artist: string, title: string, tracks?: number): Album {
-    let album: Album = {artist, title};
-    if (tracks) {
-        album.tracks = tracks;
-    }
-    return album;
+  let album: Album = { artist, title };
+  if (tracks) {
+    album.tracks = tracks;
+  }
+  return album;
 }
 
 console.log(makeAlbum("Artist One", "The First Album"));

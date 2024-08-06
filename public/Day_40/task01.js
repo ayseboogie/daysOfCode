@@ -5,6 +5,6 @@
 * It's perfect for when you know exactly how many iterations you need.
 */
 for (let i = 1; i < 11; i++) {
-    console.log(`Number: ${i}`);
+  console.log(`Number: ${i}`);
 }
 export {};

@@ -6,7 +6,7 @@
 */
 
 function numberGreaterThanTen(numberArray: number[]): number[] {
-    return numberArray.filter((num) => num >= 10)
+  return numberArray.filter((num) => num >= 10);
 }
 
 const numbers: number[] = [1, 5, 10, 7, 20, 15, 3, 50];

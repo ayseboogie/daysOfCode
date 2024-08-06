@@ -7,10 +7,10 @@
 */
 
 function useLoop() {
-    let loopNumber: number = 1
-    for ( loopNumber; loopNumber < 6; loopNumber++) {
-        console.log(loopNumber);
-    }
+  let loopNumber: number = 1;
+  for (loopNumber; loopNumber < 6; loopNumber++) {
+    console.log(loopNumber);
+  }
 }
 
 useLoop();

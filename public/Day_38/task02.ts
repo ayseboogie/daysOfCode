@@ -5,14 +5,14 @@
 * the .has() method and retrieve its value with the .get() method.
 */
 
-const myMap = new Map<string, string> ();
-myMap.set('Pakistan', 'Islamabad');
-myMap.set('India', 'Mumbai');
-myMap.set('USA', 'Washington DC');
+const myMap = new Map<string, string>();
+myMap.set("Pakistan", "Islamabad");
+myMap.set("India", "Mumbai");
+myMap.set("USA", "Washington DC");
 
 function check(map: string) {
-    console.log(myMap.has(map)? `${myMap.get(map)}` : `${map} not exist in map`);
+  console.log(myMap.has(map) ? `${myMap.get(map)}` : `${map} not exist in map`);
 }
 
-check('Canada')
-check('Pakistan')
+check("Canada");
+check("Pakistan");

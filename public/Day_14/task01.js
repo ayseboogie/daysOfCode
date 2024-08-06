@@ -5,11 +5,11 @@
 * and introducing optional function parameters.
 */
 function makeAlbum(artist, title, tracks) {
-    let album = { artist, title };
-    if (tracks) {
-        album.tracks = tracks;
-    }
-    return album;
+  let album = { artist, title };
+  if (tracks) {
+    album.tracks = tracks;
+  }
+  return album;
 }
 console.log(makeAlbum("Artist One", "The First Album"));
 console.log(makeAlbum("Artist Two", "The Second Album"));

@@ -5,7 +5,7 @@
 * useful for handling lists of data like sandwich ingredients.
 */
 function makeSandwich(...items) {
-    console.log(`Making a sandwich with: ${items.join(', ')}.`);
+  console.log(`Making a sandwich with: ${items.join(", ")}.`);
 }
 makeSandwich("ham", "cheese");
 makeSandwich("turkey", "lettuce", "tomato");

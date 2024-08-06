@@ -6,12 +6,11 @@
 * Returning both in an object is a neat way to keep them together.
 */
 
-
 function divide(num1: number, num2: number) {
-    const quotient: number = Math.floor(num1 / num2);
-    const remainder: number = num1 % num2;
+  const quotient: number = Math.floor(num1 / num2);
+  const remainder: number = num1 % num2;
 
-    return { quotient, remainder };
+  return { quotient, remainder };
 }
 
 console.log(divide(5, 9));

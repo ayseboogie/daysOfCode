@@ -8,7 +8,7 @@
 */
 
 function greetUser(username: string = "user"): void {
-    console.log(`Hello ${username}`);
+  console.log(`Hello ${username}`);
 }
 
 greetUser();

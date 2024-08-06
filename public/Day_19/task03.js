@@ -5,6 +5,7 @@
 * giving us an idea of how well someone did overall.
 */
 const grades = [50, 60, 66, 80, 90, 75, 86, 83, 76];
-const averageGrade = grades.reduce((total, grade) => total + grade, 0) / grades.length;
+const averageGrade =
+  grades.reduce((total, grade) => total + grade, 0) / grades.length;
 console.log(averageGrade);
 export {};

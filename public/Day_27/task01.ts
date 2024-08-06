@@ -7,9 +7,9 @@
 */
 
 let car = {
-    make: 'Ford',
-    model: 'mustang',
-    year: 1997
-}
+  make: "Ford",
+  model: "mustang",
+  year: 1997,
+};
 
 console.log(car.model);

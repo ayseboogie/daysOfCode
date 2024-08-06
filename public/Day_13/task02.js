@@ -5,7 +5,7 @@
 * This helps in making your code more flexible.
 */
 function cities(city = "Karachi", country = "Pakistan") {
-    console.log(`${city} is in ${country}`);
+  console.log(`${city} is in ${country}`);
 }
 cities("Lahore");
 cities("Nawabshah");

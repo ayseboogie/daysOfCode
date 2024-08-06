@@ -7,7 +7,7 @@
 * These values are used if no other value is provided, making functions more flexible.
 */
 function greetUser(username = "user") {
-    console.log(`Hello ${username}`);
+  console.log(`Hello ${username}`);
 }
 greetUser();
 greetUser("Huzaifa");

@@ -8,9 +8,9 @@
 let magicians: string[] = ["Huzaifa", "Shuja", "Bilal"];
 
 function showMagicians(magicians: string[]) {
-    magicians.forEach(magician => {
-        console.log(magician);
-    });
+  magicians.forEach((magician) => {
+    console.log(magician);
+  });
 }
 
 showMagicians(magicians);

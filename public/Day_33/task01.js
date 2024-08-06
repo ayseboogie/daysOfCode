@@ -5,14 +5,14 @@
 * The Date object provides methods to get the day, month, and year, which you can then assemble into any format you need.
 */
 const currentDate = new Date();
-console.log(currentDate.toLocaleDateString('en-GB'));
-console.log(currentDate.toLocaleDateString('en-US'));
+console.log(currentDate.toLocaleDateString("en-GB"));
+console.log(currentDate.toLocaleDateString("en-US"));
 function getCurrentDateFormatted() {
-    const date = new Date();
-    const today = String(date.getDay()).padStart(2, '0');
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const year = date.getFullYear();
-    return `${today}-${month}-${year}`;
+  const date = new Date();
+  const today = String(date.getDay()).padStart(2, "0");
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const year = date.getFullYear();
+  return `${today}-${month}-${year}`;
 }
 console.log(getCurrentDateFormatted());
 export {};

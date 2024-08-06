@@ -8,19 +8,18 @@
 */
 
 interface Laptop {
-    make: string,
-    model: string,
-    year: number
+  make: string;
+  model: string;
+  year: number;
 }
 
 const laptops: Laptop[] = [
-    { make: "Dell", model: "XPS 15", year: 2021 },
-    { make: "Apple", model: "MacBook Pro", year: 2020 },
-    { make: "HP", model: "Spectre x360", year: 2021 }
-]
+  { make: "Dell", model: "XPS 15", year: 2021 },
+  { make: "Apple", model: "MacBook Pro", year: 2020 },
+  { make: "HP", model: "Spectre x360", year: 2021 },
+];
 
 const [laptopOne, laptopTwo] = laptops;
 
 console.log(laptopOne);
 console.log(laptopTwo);
-

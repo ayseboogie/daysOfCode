@@ -6,9 +6,9 @@
 * turn out to be a number. It's useful for validating inputs or results of calculations.
 */
 function checkNaN(param) {
-    return isNaN(param);
+  return isNaN(param);
 }
-console.log(checkNaN('Hello World'));
+console.log(checkNaN("Hello World"));
 console.log(checkNaN(12345));
 console.log(checkNaN(12.388));
 console.log(checkNaN(true));

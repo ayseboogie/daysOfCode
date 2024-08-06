@@ -5,10 +5,10 @@
 * This encapsulation and reusability is a cornerstone of modern JavaScript application structure.
 */
 export class Person {
-    constructor(name) {
-        this.name = name;
-    }
-    greet() {
-        console.log(`Hello my name ${this.name}`);
-    }
+  constructor(name) {
+    this.name = name;
+  }
+  greet() {
+    console.log(`Hello my name ${this.name}`);
+  }
 }

@@ -7,11 +7,12 @@
 * but you can use a global regex for multiple replacements.
 */
 
-let sentence: string = 'JavaScript! Today we will learn JavaScript and its basic functions';
+let sentence: string =
+  "JavaScript! Today we will learn JavaScript and its basic functions";
 
 function change(text: string): string {
-    let changeText: string = text.replace(/JavaScript/g, "TypeScript");
-    return changeText;
+  let changeText: string = text.replace(/JavaScript/g, "TypeScript");
+  return changeText;
 }
 
 console.log(change(sentence));

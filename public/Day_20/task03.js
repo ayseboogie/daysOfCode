@@ -7,29 +7,29 @@
 */
 // Method 1
 class UserProfile {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-    getName() {
-        return this.name;
-    }
-    getAge() {
-        return this.age;
-    }
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  getName() {
+    return this.name;
+  }
+  getAge() {
+    return this.age;
+  }
 }
 const userOne = new UserProfile("Huzaifa", 22);
 console.log("Username", userOne.getName());
 console.log("Age", userOne.getAge());
 // Method 2
 const userProfile = (() => {
-    const name = "Huzaifa";
-    const age = 22;
-    return ({
-        displayInfo: function () {
-            console.log(`Username: ${name}, Age: ${age}`);
-        }
-    });
+  const name = "Huzaifa";
+  const age = 22;
+  return {
+    displayInfo: function () {
+      console.log(`Username: ${name}, Age: ${age}`);
+    },
+  };
 })();
 userProfile.displayInfo();
 export {};

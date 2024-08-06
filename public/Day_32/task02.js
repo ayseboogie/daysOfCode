@@ -5,7 +5,7 @@
 * that pass the test implemented by the provided function.
 */
 function numberGreaterThanTen(numberArray) {
-    return numberArray.filter((num) => num >= 10);
+  return numberArray.filter((num) => num >= 10);
 }
 const numbers = [1, 5, 10, 7, 20, 15, 3, 50];
 console.log(numberGreaterThanTen(numbers));

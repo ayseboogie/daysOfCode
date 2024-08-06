@@ -5,7 +5,6 @@
 * This builds a deeper understanding of logic in programming.
 */
 
-
 // Equality with strings
 console.log("Testing equality with strings:");
 console.log("apple" == "apple"); // True

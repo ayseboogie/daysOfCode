@@ -7,9 +7,9 @@
 */
 
 function convertToNumber(str: string): number {
-    // return parseInt(str);
-    return parseFloat(str);
+  // return parseInt(str);
+  return parseFloat(str);
 }
 
-console.log(convertToNumber('13456'));
-console.log(convertToNumber('335.13456'));
+console.log(convertToNumber("13456"));
+console.log(convertToNumber("335.13456"));

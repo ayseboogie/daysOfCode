@@ -5,7 +5,7 @@
 * the square root of any positive number, directly providing the result you need.
 */
 function takeSqrt(num) {
-    return Math.sqrt(num);
+  return Math.sqrt(num);
 }
 console.log(takeSqrt(9));
 console.log(takeSqrt(41));

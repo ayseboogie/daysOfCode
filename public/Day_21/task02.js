@@ -6,9 +6,11 @@
 * of information, making your code more organized.
 */
 const student = {
-    name: "huzaifa",
-    age: 22,
-    class: 17
+  name: "huzaifa",
+  age: 22,
+  class: 17,
 };
-console.log(`Student Name: ${student.name}, Student Age: ${student.age}, Student Class: ${student.class}`);
+console.log(
+  `Student Name: ${student.name}, Student Age: ${student.age}, Student Class: ${student.class}`,
+);
 export {};

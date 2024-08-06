@@ -11,14 +11,13 @@ let outsideLet: string = "Im outside";
 const outsideConst: string = "Im outside";
 
 {
-    let insideLet: string = "Im inside let"
-    const insideConst: string = "Im inside too"
+  let insideLet: string = "Im inside let";
+  const insideConst: string = "Im inside too";
 
-    console.log(outsideLet);
-    console.log(outsideConst);
-    console.log(insideLet);
-    console.log(insideConst);
-    
+  console.log(outsideLet);
+  console.log(outsideConst);
+  console.log(insideLet);
+  console.log(insideConst);
 }
 
 console.log(outsideLet);

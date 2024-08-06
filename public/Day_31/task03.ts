@@ -5,12 +5,12 @@
 * then use that index to set a new value with array bracket notation.
 */
 
-const favoriteFruits: string[] = ['apple', 'guava', 'orange', 'banana'];
+const favoriteFruits: string[] = ["apple", "guava", "orange", "banana"];
 
 console.log(favoriteFruits);
 
-console.log(favoriteFruits.indexOf('banana'));
+console.log(favoriteFruits.indexOf("banana"));
 
-favoriteFruits[favoriteFruits.indexOf('banana')] = 'mango'
+favoriteFruits[favoriteFruits.indexOf("banana")] = "mango";
 
 console.log(favoriteFruits);

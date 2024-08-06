@@ -5,8 +5,8 @@
 * This demonstrates looping through an array and appending custom messages to each item.
 */
 let pizzas = ["pepperoni", "margherita", "cheese lover"];
-pizzas.forEach(pizza => {
-    console.log(`I like ${pizza} pizza`);
+pizzas.forEach((pizza) => {
+  console.log(`I like ${pizza} pizza`);
 });
 console.log(`I really love pizza.`);
 export {};

@@ -5,7 +5,7 @@
 * This rule helps align our calendar years with the Earth's orbital period.
 */
 function leapYear(year) {
-    console.log(year % 4 === 0 ? `Leap year` : `Not a leap year`);
+  console.log(year % 4 === 0 ? `Leap year` : `Not a leap year`);
 }
 leapYear(2024);
 leapYear(2025);

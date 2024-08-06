@@ -22,7 +22,13 @@
 */
 
 // Store some places name in array
-let places: string[] = ["Pakistan", "USA", "Japan", "North Korea", "Switzerland"];
+let places: string[] = [
+  "Pakistan",
+  "USA",
+  "Japan",
+  "North Korea",
+  "Switzerland",
+];
 // Print your array in its original order.
 console.log("Original Order", places);
 

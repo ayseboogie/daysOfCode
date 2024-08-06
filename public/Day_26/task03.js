@@ -8,14 +8,14 @@
 */
 // Function declaration
 function squaring(num) {
-    let result = num ** 2;
-    return result;
+  let result = num ** 2;
+  return result;
 }
 console.log(squaring(3));
 // Function Expression
 const squaring2 = function (num) {
-    let result = num ** 2;
-    return result;
+  let result = num ** 2;
+  return result;
 };
 console.log(squaring2(3));
 export {};

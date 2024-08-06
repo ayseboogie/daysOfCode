@@ -9,28 +9,27 @@
 // Method 1
 
 class customNumber {
-    private readonly specificNumber;
+  private readonly specificNumber;
 
-    constructor(specificNumber: number) {
-        this.specificNumber = specificNumber;
-    }
+  constructor(specificNumber: number) {
+    this.specificNumber = specificNumber;
+  }
 
-    add(input: number) {
-        return this.specificNumber + input;    
-    }
+  add(input: number) {
+    return this.specificNumber + input;
+  }
 }
 
 const magicBox = new customNumber(5); // Create a custom adder with a special number of 5
-console.log(magicBox.add(5)); 
-console.log(magicBox.add(9)); 
-
+console.log(magicBox.add(5));
+console.log(magicBox.add(9));
 
 // Method 2
 
 function makeAddr(valueToAdd: number): (add: number) => number {
-    return function(add: number): number {
-        return add + valueToAdd;
-    }
+  return function (add: number): number {
+    return add + valueToAdd;
+  };
 }
 
 const addFive = makeAddr(5);

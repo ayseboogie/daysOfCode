@@ -5,10 +5,11 @@
 * Explain & TIP: The .includes() method lets you check if a string contains a certain piece of text,
 * returning a boolean (true or false).
 */
-const text = 'JavaScript is a dynamic programming language, and TypeScript is a static programming language';
-const text2 = 'I love coding';
+const text =
+  "JavaScript is a dynamic programming language, and TypeScript is a static programming language";
+const text2 = "I love coding";
 function findText(find) {
-    return find.includes('JavaScript');
+  return find.includes("JavaScript");
 }
 console.log(findText(text));
 console.log(findText(text2));

@@ -6,12 +6,11 @@
 * you need to adjust your list based on new information.
 */
 
-
 function createObject(key: string, value: any) {
-    let obj: { [key: string]: any } = {};
+  let obj: { [key: string]: any } = {};
 
-    obj[key] = value;
-    return obj;
+  obj[key] = value;
+  return obj;
 }
 
 let myObj = createObject("name", "Huzaifa");

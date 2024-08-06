@@ -6,7 +6,7 @@
 */
 
 function traditionalFunction(a: number, b: number) {
-    return a + b;
+  return a + b;
 }
 
 const arrowFunction = (a: number, b: number) => a + b;

@@ -7,10 +7,10 @@
 */
 
 function delay(): void {
-    setTimeout(() => {
-        console.log(`code execute after 2 seconds`);
-    }, 2000);
+  setTimeout(() => {
+    console.log(`code execute after 2 seconds`);
+  }, 2000);
 }
-delay()
+delay();
 
 console.log(`this line is after function but executed before function`);

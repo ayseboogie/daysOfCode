@@ -6,17 +6,18 @@
 * handle asynchronous success and error scenarios.
 */
 const myPromise = new Promise((resolve, reject) => {
-    const randomNumber = Math.random();
-    if (randomNumber > 0.5) {
-        resolve('Promise resolved');
-    }
-    else {
-        reject(new Error('Promise rejected'));
-    }
+  const randomNumber = Math.random();
+  if (randomNumber > 0.5) {
+    resolve("Promise resolved");
+  } else {
+    reject(new Error("Promise rejected"));
+  }
 });
-myPromise.then((result) => {
+myPromise
+  .then((result) => {
     console.log(result);
-}).catch((error) => {
-    console.error('Error', error.message);
-});
+  })
+  .catch((error) => {
+    console.error("Error", error.message);
+  });
 export {};

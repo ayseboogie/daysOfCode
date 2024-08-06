@@ -5,9 +5,9 @@
 * It can be more efficient for large sets of data and when the key is not a string.
 */
 const myMap = new Map([
-    ['Pakistan', 'Islamabad'],
-    ['India', 'Mumbai'],
-    ['USA', 'Washington DC']
+  ["Pakistan", "Islamabad"],
+  ["India", "Mumbai"],
+  ["USA", "Washington DC"],
 ]);
 console.log(myMap);
 export {};

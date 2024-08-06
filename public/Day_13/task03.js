@@ -5,7 +5,7 @@
 * This exercise practices string formatting and returning values from functions.
 */
 function cities(city, country) {
-    return `${city} ${country}`;
+  return `${city} ${country}`;
 }
 console.log(cities("Karachi", "Pakistan"));
 console.log(cities("Nawabshah", "Pakistan"));

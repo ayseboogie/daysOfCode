@@ -7,8 +7,8 @@
 */
 
 function add(num1: number, num2: number): number {
-    const result: number = num1 + num2;
-    return result;
+  const result: number = num1 + num2;
+  return result;
 }
 
 console.log(add(5, 10));

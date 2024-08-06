@@ -1,7 +1,7 @@
 "TypeScript is JavaScript with syntax for types. It is all about type safety. Sometimes JavaScript exhibits unexpected behavior. For example, if you write:
 
 ```jsx
-2 + "2"
+2 + "2";
 ```
 
 It will return '22'. However, with TypeScript, all of these problems just disappear.
@@ -31,7 +31,6 @@ But this is not the only reason to learn TypeScript.
 6. Framework Empowerment: TypeScript enhances popular frameworks like React, Vue, and Angular with advanced features such as interfaces, generics, and decorators.
 
 ---
-
 
 ## How Typescript Works
 

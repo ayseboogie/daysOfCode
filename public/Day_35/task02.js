@@ -5,9 +5,9 @@
 * You can generate each digit randomly and concatenate them into a full color code.
 */
 function generateRandomColor() {
-    const randomColor = Math.floor(Math.random() * 16777215);
-    const hexColor = '#' + randomColor.toString(16).padStart(6, '0');
-    return hexColor;
+  const randomColor = Math.floor(Math.random() * 16777215);
+  const hexColor = "#" + randomColor.toString(16).padStart(6, "0");
+  return hexColor;
 }
 console.log(generateRandomColor());
 export {};

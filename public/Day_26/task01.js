@@ -6,8 +6,8 @@
 * They're like personal assistants that do a specific task for you and report back with the results.
 */
 function add(num1, num2) {
-    const result = num1 + num2;
-    return result;
+  const result = num1 + num2;
+  return result;
 }
 console.log(add(5, 10));
 export {};

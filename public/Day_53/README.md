@@ -1,6 +1,4 @@
-
-
-Day-53 Task: 
+Day-53 Task:
 
 Watch the following video to learn about Chrome DevTools, and try to edit any website, and use devtools console:
 

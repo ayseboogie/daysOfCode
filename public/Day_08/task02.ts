@@ -18,4 +18,3 @@ console.log(person !== "Shuja");
 
 console.log(`is person == number ? I predict its false`);
 console.log(person === "7");
-

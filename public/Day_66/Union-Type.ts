@@ -1,12 +1,10 @@
-
 /***************
  * UNION TYPES *
-***************/
-
+ ***************/
 
 let myVar: string | number;
 
-myVar = 'Hello';
+myVar = "Hello";
 console.log(myVar);
 
 myVar = 42;

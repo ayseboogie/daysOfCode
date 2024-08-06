@@ -1,7 +1,7 @@
 /************
  * ANY TYPE *
-************/
+ ************/
 let myVariable = 66;
-myVariable = 'Huzaifa';
+myVariable = "Huzaifa";
 console.log(myVariable);
 export {};

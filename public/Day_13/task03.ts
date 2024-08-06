@@ -6,10 +6,9 @@
 */
 
 function cities(city: string, country: string) {
-    return `${city} ${country}`;
+  return `${city} ${country}`;
 }
 
 console.log(cities("Karachi", "Pakistan"));
 console.log(cities("Nawabshah", "Pakistan"));
 console.log(cities("Tokyo", "Japan"));
-

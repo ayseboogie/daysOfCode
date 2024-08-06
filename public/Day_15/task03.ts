@@ -6,42 +6,50 @@
 */
 
 // Method 1
-function make_car(manufacturer: string, model: string, ...options: [string, any][]): Object {
-    let car: {[key: string]: any} = { manufacturer, model };
-    options.forEach(([key, value]) => car[key] = value);
-    return car;
+function make_car(
+  manufacturer: string,
+  model: string,
+  ...options: [string, any][]
+): Object {
+  let car: { [key: string]: any } = { manufacturer, model };
+  options.forEach(([key, value]) => (car[key] = value));
+  return car;
 }
 
 console.log(make_car("Toyota", "Corolla", ["color", "red"], ["year", 2020]));
 console.log(make_car("Ford", "Fiesta", ["color", "blue"], ["sunroof", true]));
 
-
 // // Method 2
 interface Car {
-    manufacturer: string;
-    model: string
-    color?: string;
-    year?: number
+  manufacturer: string;
+  model: string;
+  color?: string;
+  year?: number;
 }
 
-function storeCarInfo(manufacturer: string, model: string, ...args: (string | number)[]): Car {
-    const car: Car = {
-        manufacturer: manufacturer,
-        model: model
+function storeCarInfo(
+  manufacturer: string,
+  model: string,
+  ...args: (string | number)[]
+): Car {
+  const car: Car = {
+    manufacturer: manufacturer,
+    model: model,
+  };
+
+  for (const arg of args) {
+    if (typeof arg === "string") {
+      car.color = arg;
+    } else if (typeof arg === "number") {
+      car.year = arg;
     }
+  }
 
-    for (const arg of args) {
-        if (typeof arg === 'string') {
-            car.color = arg;
-        } else if (typeof arg === 'number') {
-            car.year = arg;
-        }
-    }
+  console.log(
+    `${manufacturer}, ${model}${car.color ? ", " + car.color : ""}${car.year ? ", " + car.year : ""}`,
+  );
 
-    console.log(`${manufacturer}, ${model}${car.color ? ', ' + car.color : ''}${car.year ? ', ' + car.year : ''}`);
-
-   
-    return car;
+  return car;
 }
 
 // Test cases

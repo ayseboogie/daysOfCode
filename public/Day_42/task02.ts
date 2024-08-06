@@ -6,12 +6,12 @@
 */
 
 const rectangle = {
-    length: 4,
-    width: 5,
+  length: 4,
+  width: 5,
 
-    calculate: function() {
-        console.log(this.length * this.width);
-    }
-}
+  calculate: function () {
+    console.log(this.length * this.width);
+  },
+};
 
-rectangle.calculate()
+rectangle.calculate();

@@ -1,8 +1,8 @@
 /***************
  * UNION TYPES *
-***************/
+ ***************/
 let myVar;
-myVar = 'Hello';
+myVar = "Hello";
 console.log(myVar);
 myVar = 42;
 console.log(myVar);

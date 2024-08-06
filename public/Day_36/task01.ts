@@ -6,11 +6,11 @@
 */
 
 function leapYear(year: number) {
-    console.log(year % 4 === 0? `Leap year` : `Not a leap year`);
+  console.log(year % 4 === 0 ? `Leap year` : `Not a leap year`);
 }
 
-leapYear(2024)
-leapYear(2025)
-leapYear(2026)
-leapYear(2027)
-leapYear(2028)
+leapYear(2024);
+leapYear(2025);
+leapYear(2026);
+leapYear(2027);
+leapYear(2028);

@@ -6,9 +6,9 @@
 * demonstrates how to handle operations that take some time to complete, like fetching data or timing events.
 */
 const createPromise = new Promise((resolve) => {
-    setTimeout(() => {
-        resolve('Hello World!');
-    }, 2000);
+  setTimeout(() => {
+    resolve("Hello World!");
+  }, 2000);
 });
 createPromise.then((message) => console.log(message));
 export {};

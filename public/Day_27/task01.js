@@ -6,9 +6,9 @@
 * You can create an object to group related data and access its properties using either dot notation or bracket notation.
 */
 let car = {
-    make: 'Ford',
-    model: 'mustang',
-    year: 1997
+  make: "Ford",
+  model: "mustang",
+  year: 1997,
 };
 console.log(car.model);
 export {};

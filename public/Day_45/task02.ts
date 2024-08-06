@@ -6,11 +6,11 @@
 */
 
 const obj = {
-    name: 'huzaifa',
-    age: 23,
-}
-const jsonObject = JSON.stringify(obj)
-console.log('Object to JSON:', jsonObject);
+  name: "huzaifa",
+  age: 23,
+};
+const jsonObject = JSON.stringify(obj);
+console.log("Object to JSON:", jsonObject);
 
-const jsonToObject = JSON.parse(jsonObject)
-console.log('JSON to Object', jsonToObject);
+const jsonToObject = JSON.parse(jsonObject);
+console.log("JSON to Object", jsonToObject);

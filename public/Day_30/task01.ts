@@ -7,7 +7,7 @@
 */
 
 function round(param: number): number {
-    return Math.round(param);
+  return Math.round(param);
 }
 
 console.log(round(2.678));

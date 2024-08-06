@@ -5,12 +5,11 @@
 * It allows you to add new items to the end of an array.
 */
 
-const favoriteFruits: string[] = ['apple', 'mango', 'guava'];
+const favoriteFruits: string[] = ["apple", "mango", "guava"];
 
 console.log(favoriteFruits);
 
-favoriteFruits.push('banana');
-favoriteFruits.push('orange');
+favoriteFruits.push("banana");
+favoriteFruits.push("orange");
 
 console.log(favoriteFruits);
-

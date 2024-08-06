@@ -6,20 +6,19 @@
 * of all letters in a string, useful for formatting or comparing strings.
 */
 
-let text1: string = 'huZAIfa';
-let text2: string = 'ahMEd';
+let text1: string = "huZAIfa";
+let text2: string = "ahMEd";
 
 console.log(`before ${text1}`);
 console.log(`before ${text2} \n`);
 
 function converter(text: string): void {
-    let convert = text.toLowerCase();
-    console.log(`to lower case ${convert}`);
+  let convert = text.toLowerCase();
+  console.log(`to lower case ${convert}`);
 
-    convert = text.toUpperCase();
-    console.log(`to upper case ${convert} \n`);
+  convert = text.toUpperCase();
+  console.log(`to upper case ${convert} \n`);
 }
 
 converter(text1);
-converter(text2)
-
+converter(text2);

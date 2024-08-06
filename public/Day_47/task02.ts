@@ -6,10 +6,7 @@
 */
 
 try {
-    
-    // let class = "Mathematics";
-    
+  // let class = "Mathematics";
 } catch (error: any) {
-    console.error('Error catch', error.message);
-    
+  console.error("Error catch", error.message);
 }

@@ -7,12 +7,12 @@
 */
 
 function simpleFunction(): void {
-    console.log(`This is a simple function declaration`);
+  console.log(`This is a simple function declaration`);
 }
 
 const arrowFunction = (): void => {
-    console.log(`This is arrow function declaration`);
-}
+  console.log(`This is arrow function declaration`);
+};
 
-simpleFunction()
-arrowFunction()
+simpleFunction();
+arrowFunction();

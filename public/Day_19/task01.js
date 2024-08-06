@@ -5,7 +5,7 @@
 * Explain & TIP: We can use a special tool to go through each number in our list and make a new list with each number doubled.
 */
 const numbers = [2, 4, 6, 7, 9];
-const doubleNumbers = numbers.map(number => number * 2);
+const doubleNumbers = numbers.map((number) => number * 2);
 console.log(numbers);
 console.log(doubleNumbers);
 export {};

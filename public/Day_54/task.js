@@ -1,10 +1,7 @@
+let message1 = "Hello";
 
-let message1 = 'Hello';
+let message2 = "World";
 
-let message2 = 'World'
+let greet = message1 + message2;
 
-let greet = message1 + message2
-
-
-alert(greet)
-
+alert(greet);

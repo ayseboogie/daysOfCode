@@ -6,8 +6,8 @@
 */
 
 function compare(str1: string, str2: string) {
-    console.log(str1.toLowerCase() === str2.toLowerCase()? `Same` : `Not Same`);
+  console.log(str1.toLowerCase() === str2.toLowerCase() ? `Same` : `Not Same`);
 }
 
-compare('hello', 'Hello');
-compare('JavaScript', 'TypeScript');
+compare("hello", "Hello");
+compare("JavaScript", "TypeScript");

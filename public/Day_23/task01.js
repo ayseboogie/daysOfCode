@@ -6,7 +6,7 @@
 * When you add a number to a string that looks like a number, JavaScript converts the string to a number for the operation.
 */
 function add(num, text) {
-    return num + Number(text);
+  return num + Number(text);
 }
 console.log(add(5, "9"));
 export {};

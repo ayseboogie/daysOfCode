@@ -5,7 +5,7 @@
 * This introduces you to function parameters and printing dynamic content based on those parameters.
 */
 function makeShirt(size, message) {
-    console.log(`T-Shirt size is "${size}", and the message is "${message}"`);
+  console.log(`T-Shirt size is "${size}", and the message is "${message}"`);
 }
 makeShirt("X", "COOL");
 makeShirt("XXL", "BUY NOW");

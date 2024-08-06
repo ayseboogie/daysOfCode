@@ -7,18 +7,19 @@
 */
 
 const myPromise = new Promise<string>((resolve, reject) => {
-    const randomNumber: number = Math.random();
+  const randomNumber: number = Math.random();
 
-    if (randomNumber > 0.5) {
-        resolve('Promise resolved');
-    } else {
-        reject(new Error('Promise rejected'))
-    }
+  if (randomNumber > 0.5) {
+    resolve("Promise resolved");
+  } else {
+    reject(new Error("Promise rejected"));
+  }
 });
 
-myPromise.then((result) => {
+myPromise
+  .then((result) => {
     console.log(result);
-    
-}).catch((error: any) => {
-    console.error('Error', error.message);
-});
+  })
+  .catch((error: any) => {
+    console.error("Error", error.message);
+  });

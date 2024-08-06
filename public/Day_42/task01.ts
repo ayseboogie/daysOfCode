@@ -6,11 +6,11 @@
 */
 
 const obj = {
-    name: 'Huzaifa',
+  name: "Huzaifa",
 
-    person() {
-        console.log(`Person name is ${this.name}`);
-    }
-}
+  person() {
+    console.log(`Person name is ${this.name}`);
+  },
+};
 
-obj.person()
+obj.person();

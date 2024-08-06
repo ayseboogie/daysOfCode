@@ -6,13 +6,12 @@
 */
 
 function randomBoolean(): boolean {
-    const randomNumber = Math.random();
-    if (randomNumber < 0.5) {
-        return false;
-    } else {
-
-        return true;
-    }
+  const randomNumber = Math.random();
+  if (randomNumber < 0.5) {
+    return false;
+  } else {
+    return true;
+  }
 }
 
 console.log(randomBoolean());

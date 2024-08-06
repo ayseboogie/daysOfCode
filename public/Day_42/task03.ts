@@ -7,17 +7,17 @@
 */
 
 const obj = {
-    name: 'Huzaifa',
+  name: "Huzaifa",
 
-    outerFunction: function() {
-        console.log(this.name);
+  outerFunction: function () {
+    console.log(this.name);
 
-        const innerFunction = () => {
-            console.log(this.name);
-        }
+    const innerFunction = () => {
+      console.log(this.name);
+    };
 
-        innerFunction()
-    }
-}
+    innerFunction();
+  },
+};
 
-obj.outerFunction()
+obj.outerFunction();

@@ -5,7 +5,11 @@
 * A number divisible by both 2 and 3 without a remainder is also divisible by 6.
 */
 function divisible(num) {
-    console.log((num % 2 === 0) && (num % 3 === 0) ? `${num} is dividable` : `${num} is not dividable`);
+  console.log(
+    num % 2 === 0 && num % 3 === 0
+      ? `${num} is dividable`
+      : `${num} is not dividable`,
+  );
 }
 divisible(68);
 divisible(12);

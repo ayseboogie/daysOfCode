@@ -6,15 +6,14 @@
 * It's great for confirming several things are true all at once.
 */
 function check(first, second) {
-    if (first === true && second === true) {
-        return true;
-    }
-    else {
-        return false;
-    }
-    // or
-    // Only says true if both first and second are true
-    //  return first && second;
+  if (first === true && second === true) {
+    return true;
+  } else {
+    return false;
+  }
+  // or
+  // Only says true if both first and second are true
+  //  return first && second;
 }
 console.log(check(true, true));
 console.log(check(false, true));
