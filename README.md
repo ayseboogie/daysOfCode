@@ -6,5 +6,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 npm run dev
 ```
 
-Open pages/[day] and insert the day you want to see the challenge.
+## how to add
+
+```Open pages/[day] and insert the day you want to see the challenge.
 then go to public/Day\_[day] and start working in the answers.tsx file
+```
