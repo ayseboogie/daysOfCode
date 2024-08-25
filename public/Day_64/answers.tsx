@@ -1,7 +1,11 @@
 import React from "react";
 
 const Day64 = () => {
-  return <div>Day 64</div>;
+  return (
+    <div>
+      <div>Day 64</div>
+    </div>
+  );
 };
 
 export default Day64;
