@@ -14,9 +14,11 @@ def create_answers_file(folder_path, day_number):
 
 const Day{day_number} = () => {{
   return (
+  <div>
     <div>
       Day {day_number}
     </div>
+  </div>
   );
 }};
 

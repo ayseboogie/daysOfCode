@@ -1,7 +1,11 @@
 import React from "react";
 
 const Day38 = () => {
-  return <div>Day 38</div>;
+  return (
+    <div>
+      <div>Day 38</div>
+    </div>
+  );
 };
 
 export default Day38;

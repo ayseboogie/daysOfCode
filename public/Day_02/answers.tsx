@@ -8,6 +8,7 @@ const Day2 = () => {
     "It was a musical thing all along and\n" +
     "        we were supposed to sing or to dance as the music was being\n" +
     "        played.";
+
   return (
     <div>
       <div>Day 2</div>
