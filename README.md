@@ -8,6 +8,11 @@ npm run dev
 
 ## how to add
 
-```Open pages/[day] and insert the day you want to see the challenge.
-then go to public/Day\_[day] and start working in the answers.tsx file
+```
+go to public/Day\_[day] and start working in the answers.tsx file
+```
+## next day
+
+```
+Open pages/[day] and insert the next day for the challenge.
 ```
