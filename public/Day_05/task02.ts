@@ -4,8 +4,8 @@
  * Then use your list to print a message to each person, inviting them to dinner.
  */
 
-const guest: string[] = ["Hamza", "Haris", "Mudassir"];
+const guestDin: string[] = ["Hamza", "Haris", "Mudassir"];
 
-for (let i = 0; i < guest.length; i++) {
-  console.log(`Hello ${guest[i]}, you are invited to the dinner`);
+for (let i = 0; i < guestDin.length; i++) {
+  console.log(`Hello ${guestDin[i]}, you are invited to the dinner`);
 }

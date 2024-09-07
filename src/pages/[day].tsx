@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import { useRouter } from "next/router";
 import React from "react";
-import DayFive from "../../public/Day_05/answers";
+import DaySix from "../../public/Day_06/answers";
 
 interface Props {
   readmeContent: string;
@@ -19,7 +19,7 @@ const DayPage: React.FC<Props> = ({ readmeContent }) => {
       <h2>README</h2>
       <pre>{readmeContent}</pre>
 
-      <DayFive />
+      <DaySix />
     </div>
   );
 };
