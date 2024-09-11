@@ -7,17 +7,17 @@
 */
 
 // Method 01
-let person = {
+let person20 = {
   name: "Huzaifa",
   age: 22,
   city: "Nawabshah",
   isStudent: true,
 };
 
-console.log(person.name);
-console.log(person.age);
-console.log(person.city);
-console.log(person.isStudent);
+console.log(person20.name);
+console.log(person20.age);
+console.log(person20.city);
+console.log(person20.isStudent);
 
 // // Method 02
 let book: { title: string; author: string; yearPublished: number } = {
