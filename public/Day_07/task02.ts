@@ -7,11 +7,11 @@
 * Choose a theme you like and list several examples.
 */
 
-let countries: string[] = [
+let countriesArray: string[] = [
   "Japan",
   "Canada",
   "New Zealand",
   "Iceland",
   "Switzerland",
 ];
-console.log("Countries I'd like to visit:", countries.join(", "));
+console.log("Countries I'd like to visit:", countriesArray.join(", "));
